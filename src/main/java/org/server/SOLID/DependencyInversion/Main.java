@@ -1,10 +1,8 @@
 package org.server.SOLID.DependencyInversion;
 
 public class Main {
+    // now the high level module is depending on low level module. "Both should depend on abstractions"
     public static void main(String[] args) {
-        MusicLoader loader = new NetworkMusicLoader();
-        MusicPlayer player = new MusicPlayer(loader);
-
-        player.play();
+        new DatabaseController();
     }
 }

@@ -1,4 +1,4 @@
-package org.server.SOLID.DependencyInversion;
+package org.server.SOLID.DependencyInversion.example;
 
 public class NetworkMusicLoader implements MusicLoader{
     @Override
